@@ -1,0 +1,829 @@
+@font-face{
+		font-family:'museosans-webfont';
+		src:url(fonts/museosans-webfont.woff);
+	  }
+	body{
+	    font-family:'museosans-webfont',Arial,Helvetic,sans-serif;
+		/*  background-color: green;
+		background-image:url("../images/sudan6.jpg");
+		background-repeat: no-repeat; */
+			
+		}
+		
+	#container{
+		width:960px;
+		margin:0 auto;
+	   }
+	header{
+		margin-top: auto;
+		margin-bottom:auto;
+		margin-right:0px;
+		margin-left:0px;
+		color:white;
+		overflow:auto;
+	   }
+	#logo{
+		width:390px;
+		height:auto;
+		float:left;
+		
+		margin-right:0px;
+		margin-left:20px;
+	   }
+	#orre{
+		
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+	/* #t
+	icketing{
+		width:340px;
+		height:50px;
+		background-color:#C7FF5D;
+		float:right;
+		margin-top:0px;
+		margin-bottom:0px;
+		margin-right:0px;
+		margin-left:10px;
+		
+		border-bottom-left-radius:10px;
+	    border-bottom-right-radius:10px;
+		border-style: solid;
+       border-width: 1px;
+	   }
+	#Tickets ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 10px;
+		padding-top:10px;
+		}
+		
+	#Tickets li{
+		list-style:none;
+		padding:0;
+		margin:0;
+		display:inline;
+	}
+	#Tickets a:link{
+		padding:15px;
+		display:inline;
+		
+		color:white;
+		text-decoration:none;
+		
+	}
+	#Tickets a:hover{
+					text-decoration:underline;
+					
+				} */
+	nav img{
+		   width:22px;
+		   height:22px;
+		  padding:10px;
+	   }
+	.toggle.menu {
+		    
+			display:  none;
+			background: blue;
+			
+			
+		}
+	.menu {
+			list-style: none;
+			 *zoom: 1;
+			margin-top:0px;
+			margin-bottom:0px;
+			background:rgb(50, 179, 50);
+			padding:10px;
+			margin-right:40px;
+		    margin-left:40px;
+			/* border-top-left-radius:10px;
+	        border-top-right-radius:10px; */
+			/* background:rgba(255,255,255,.3); */
+			
+		}
+	.menu:before,
+	.menu:after {
+			content: " "; 
+			display: table; 
+		}
+	.menu:after {
+			clear: both;
+		}
+	.menu ul {
+			list-style: none;
+			width: 9em;
+			margin-left:0px;
+		}
+	.menu a {
+		margin-left:0px;
+			padding: 10px 15px;
+			color:white;
+		}
+	.menu li {
+			position: relative;
+			
+		}
+	.menu > li {
+			float: left;
+				
+		}
+	.menu > li > .parent {
+			background-image: url("images/downArrow.png");
+			background-repeat: no-repeat;
+			background-position: right;
+		}
+	.menu > li > a {
+			display: block;
+			
+		}
+	.menu li  ul {
+			position: absolute;
+			left: -9999px;
+		}
+	.menu > li.hover > ul {
+			left: 0;
+		}
+		
+	.menu li li a {
+			display: block;
+		
+			position: relative;
+			z-index:100;
+			background:rgb(152, 197, 152);
+		}
+			
+					
+	.menu li li{
+		background:white;
+	    background:rgb(50, 179, 50);
+		}
+	.menu li li:last-child {
+            border-bottom-left-radius:10px;
+	        border-bottom-right-radius:10px;
+			
+              }
+	section{
+		background-color:white;
+		overflow:auto;
+	
+		
+		margin-right:40px;
+		margin-left:40px;
+		}
+	 #bannerBackground {
+		margin-right:0px;
+		margin-left:0px;
+	  } 
+	  #baner{
+	    background:rgb(120, 167, 120);
+	    padding:10px;
+		margin-right:40px;
+		margin-left:40px;
+		}
+		
+		* {box-sizing:border-box}
+
+		/* Slideshow container */
+		.slideshow-container {
+		  max-width: 1000px;
+		  position: relative;
+		  margin: auto;
+		}
+
+		.mySlides {
+			display: none;
+		}
+
+	/* #baner{
+	    background-color:white;
+	    padding:10px;
+		margin-right:40px;
+		margin-left:40px;
+		} */
+	article{
+		width:515px;
+		
+		float:right;
+		
+		}
+	#sample label {
+			display:inline-block;
+			float:left;
+			width:150px;
+
+		}
+
+	#sample input {
+			width:250px;
+			padding:5px;
+			display:inline-block;
+		}
+	#sample input[type=radio] {
+			width:auto;
+		}
+
+	#sample textarea {
+			width:250px;
+			height:150px;
+			padding:5px;
+			font-family: Arial, sans-serif;
+		}
+
+	.important {
+			color:red;
+		}
+
+	#sample button {
+			margin-left:0px;
+		}
+	aside{
+		width:315px;
+		float:left;
+		margin-top:0;
+		padding-top:0px;
+		padding-bottom:0px;
+		color:white;
+		text-align:center;
+	   }
+    #option ul{
+		list-style-image:url(../images/sun-bullet.png);
+			}
+	#social{
+		margin-top:0px;
+		margin-bottom:0px;
+	    overflow:auto;
+	    clear:both;
+		}
+	#socialicon{
+	 	margin-top:0px;
+		margin-bottom:0px;
+	   /* width:160px;
+	    height:35px;*/
+		margin-right:0px;
+		margin-left:0px;
+	  	float:left;
+	   }
+	#socialicon img{
+		   width:35px;
+		   height:35px;
+	   }
+	   .hiddenn{
+		   
+		   display:none;
+	   }
+	#menu{
+	   list-style: none;
+	   
+	    padding:0;
+		margin:0;
+	  
+	  	}
+	#menu li{
+	display:flex;  
+		list-style:none;
+		display:inline;
+		
+		padding:0;
+		margin:0;
+		}
+	#menu a:link{
+		
+		display:inline-block;
+		text-decoration:none;
+		
+		}
+		
+		
+	
+	table td{
+	   padding:5px;
+	   }
+	   
+	#socialposts{
+		font-size:11px;
+		text-decoration: none;
+		margin-top:5px;
+	   	float:right;
+		width:625px;
+		background:#FFE9D5;
+		border-top-left-radius:10px;
+	    border-top-right-radius:10px;
+		}
+	/* #adds{
+		background-color:#8879FF;
+		margin-right:40px;
+		margin-left:40px;
+		overflow:auto;
+		color:white;
+		text-align: center;
+		border-bottom-left-radius:10px;
+	    border-bottom-right-radius:10px;
+		}
+	#add1{
+		margin-top:20px;
+		margin-bottom:20px;
+		margin-right:10px;
+		margin-left:20px;
+		width:195px;
+		height:125px;
+		float:left;
+		}
+	#add2{
+		margin-top:20px;
+		margin-bottom:20px;
+		margin-right:10px;
+		margin-left:10px;
+		width:195px;
+		height:125px;
+		float:left;
+		}
+	#add3{
+		 margin-top:20px;
+		margin-bottom:20px;
+		margin-right:10px;
+		margin-left:10px;
+		width:195px;
+		height:125px;
+		float:left;
+		}
+	#add4{
+		margin-top:20px;
+		margin-bottom:20px;
+		margin-right:20px;
+		margin-left:10px;
+		width:195px;
+		height:125px;
+		float:left;
+		} */
+	footer{
+		margin-top:0px;
+		margin-bottom:0px;
+		margin-right:40px;
+		margin-left:40px;
+		/*background-color:#1A469C;*/
+		
+		overflow:auto;
+		clear:both;
+		}
+	#footerNav{
+	
+		width:300px;
+		margin-top:0px;
+		margin-left:0px;
+		float:left;
+		color:white;
+		}
+	#footnav ul{
+		list-style:none;
+		padding:0;
+		margin:0;
+		font-size:14px;
+		color:white;
+		}
+	#footnav li{
+		list-style:none;
+		padding:15;
+		margin:0;
+		display:inline;
+		color:white;
+	}
+	#footnav a{
+		
+	color:white;}
+	#footnav a:link{
+		padding:5px;
+		display:inline;
+		text-decoration:none;
+		color:white;
+		
+	}
+	#footerLogo{
+		padding:5px;
+		width:240px;
+		height:50px;
+		margin-top:5px;
+		margin-bottom:5px;
+		margin-right:10px;
+		float:right;
+		} 
+	h1{
+		color:rgb(50, 179, 50);
+		font-size:48px;
+	   }
+	   h2{
+		color:rgb(50, 179, 50);
+		
+	   }
+    a:link{
+	
+			text-decoration: none;
+			}
+	 a:visited{
+			
+			text-decoration:underline;
+			}
+    #footnav a:visited{
+			
+			}
+	#footerNav a:hover{
+					text-decoration:underline;
+					
+				}
+	a:hover:not(.active){
+		
+			}
+	/* Bordered form */
+form {
+	border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+	background-color: #04AA6D;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+	opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+	width: 40%;
+	border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+	padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+	float: right;
+	padding-top: 16px;
+  }
+  * {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+#signupbtn {
+	float: right;
+	width: 50%;
+  }
+  
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  
+		@media (max-width: 600px) {
+
+			#container{
+					
+					width:auto;
+				}
+			header{
+				 float:none;
+				 width:auto;
+				 margin-left:0px;
+				 margin-right:0px;
+				 }
+			#logo{
+				 float:none;
+				 width:auto;
+				 height:auto;
+				
+				 }
+			 h1{
+				color:rgb(50, 179, 50);
+				font-size:28px;
+				}
+			#logo img{
+				width:auto;
+				height:auto;
+			}
+			#ticketing{
+				 float:none;
+				 width:auto;
+				 margin-top:0px;
+				margin-bottom:0px;
+				
+				height:auto;
+				border-bottom-left-radius:0;
+				border-bottom-right-radius:0;
+				 }
+			#Tickets ul{
+				list-style-type: none;
+				float:none;
+				width:auto
+				}
+			#Tickets a:link
+				{
+					display:block;
+					
+					border-bottom:1px solid black;
+					
+				}
+			#Tickets a:visited{
+				
+				text-decoration:none;
+				}
+			#Tickets a:hover{
+					text-decoration:underline;
+				}
+			.active {
+					display: block;
+				}
+				.menu {
+					
+					margin-right:0px;
+					margin-left:0px;
+					border-top-left-radius:0;
+	                border-top-right-radius:0;
+				}
+				.menu > li {
+					float: none;
+				}
+				.menu > li > .parent {
+					background-position: 95% 50%;
+				}
+				.menu li li .parent {
+					background-image: url("images/downArrow.png");
+					background-repeat: no-repeat;
+					background-position: 95% 50%;
+				}
+				.menu li li a {
+				display: block;
+				background: white;
+				position: relative;
+				z-index:100;
+				
+					}
+				.menu ul {
+					display: block;
+					width: 100%;
+				}
+				.menu a:link
+				{
+					display:block;
+					
+					border-bottom:1px solid black;
+					
+				}
+			#bannerBackground{
+				 float:none;
+				 width:auto;
+				
+				  margin-left:0px;
+				 margin-right:0px;
+				  }
+			#baner{
+				 width:auto;
+				 height:auto;
+				  margin-left:0px;
+				 margin-right:0px;
+				 }
+			img {
+					width: 100%;
+					height: auto;
+				}
+			section {
+				float:none;
+				width:100%;
+				margin-left:0px;
+				margin-right:0px;
+					
+				}
+			
+			article {
+					
+				float:none;
+				width:auto;
+				margin-left:0px;
+				margin-right:0px;
+								}
+			aside {
+							  
+				float:none;
+				width:auto;
+									
+										
+				}	
+				
+				span.psw {
+					display: block;
+					float: none;
+				  }
+				  .cancelbtn {
+					width: 100%;
+				  }
+					
+				  .cancelbtn, .signupbtn {
+					width: 100%;
+				  }
+			#sample label {
+						display:block;
+						float:none;
+				}
+			#sample button {
+						margin-left:0px;
+					}				
+			
+			#social{
+				 float:none;
+				 width:auto;
+				 margin-left:0px;
+				 margin-right:0px;
+				 }
+			#socialicon{
+				 float:none;
+				 width:100%;
+				 height:auto;
+				 margin-left:0px;
+				margin-right:0px;
+				 }
+		   #socialicon li{
+			     display:block;
+			
+				}
+			#socialicon a:link
+				{
+					display:block;
+					
+					border-bottom:1px solid black;
+					
+				}
+			#socialicon a:visited{
+				
+				text-decoration:none;
+				}
+			#socialicon a:hover{
+					text-decoration:underline;
+					
+				}
+			
+			#socialicon a:visited{
+				color:black;
+				text-decoration:underline;
+			}
+			 .hiddenn{
+		   
+		   display:inline;
+	  		 }
+			#socialposts{
+				 float:none;
+				 width:100%;
+				 margin-left:0px;
+				margin-right:0px;
+				margin-top:0px;
+				padding:0px;
+				border-top-left-radius:0px;
+	           border-top-right-radius:0px;
+				 }
+			/* #adds{
+				float:none;
+				width:auto;
+				height:auto;
+				 margin-left:0px;
+				 margin-right:0px;
+				 border-bottom-left-radius:0;
+	             border-bottom-right-radius:0;
+				 }
+			#add4{
+				 float:none;
+				 width:auto;
+				 height:auto;
+				 }
+			#add3{
+				 float:none;
+				 width:auto;
+				 height:auto;
+				 
+				 }
+			#add2{
+				 float:none;
+				 width:auto;
+				 height:auto;
+				 }
+			#add1{
+				 float:none;
+				 width:auto;
+				 height:auto;
+				 
+				 }
+			footer {
+				 width:auto;
+				  margin-left:0px;
+				 margin-right:0px;
+				} */
+			/* #footerLogo {
+				 
+				 float:none;
+				 width:auto;
+				 height:auto;
+				 
+				}
+			#footerNav {
+				 float:none;
+				 width:auto;
+				}
+			#footerNav a:link
+				{
+					display:block;
+					
+					border-bottom:1px solid black;
+					
+				}
+			#footerNav a:visited{
+				
+				text-decoration:none;
+				}
+			#footerNav a:hover{
+					text-decoration:underline;
+					
+		} */
+
+	}
