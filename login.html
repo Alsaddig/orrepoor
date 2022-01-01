@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<title> responsive</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<meta charset="utf-8">
+</head>
+<body>
+    <div id="container" >
+        <header>
+            <div id="logo">
+				<div id="logo"><img src="images/logo-main1.png" alt="Amazement Park - Logo" /></div><!--end logo-->   
+			</div><!--end of logodiv  -->
+			<h1 id="orre">Orre Poor Organization in Iowa</h1>
+			
+     	</header>
+        <nav>
+            <a class="toggleMenu" href="#"><img src="amazementpark-images/menu-icon.png" />Menu</a>
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#">Services
+					</a>
+					<ul>
+						<li><a href="vlounteer.html">Vlounteers</a></li>
+						<li><a href="sports.html">Sports</a></li>
+						<li><a href="cluture.html">Cluture</a></li>
+						<li><a href="service.html">Education</a></li>
+						<li><a href="service.html">Arts</a></li>
+						<li><a href="others.html">Others</a></li>
+					</ul>
+					</li>
+					<li><a href="contact.html">contact</a></li>
+					<li><a href="member.html">Membership</a></li>
+					<li><a href="photos.html">photos</a></li>
+					<li><a href="news.html">News</a></li>
+					<li><a href="login.html">
+						<button type="submit" class="submit" id="submit" name="Submit" value="Login" action="login.php"/><span>Login </span></button>
+						</a></li>
+						<div id="donate">	
+							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+								<input type="hidden" name="cmd" value="_donations">
+								<input type="hidden" name="business" value="realsightings4@gmail.com">
+								<input type="hidden" name="lc" value="US">
+								<input type="hidden" name="item_name" value="Real Sightings Inc">
+								<input type="hidden" name="no_note" value="0">
+								<input type="hidden" name="currency_code" value="USD">
+								<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+								<input id="paypal" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+								<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+							</form>
+						</div><!--end donate-->
+				</ul>
+			</nav>
+        </nav>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		
+		<section>
+			<!-- <div> <span class="psw">create <a href="./sign-in.html"> new User Account</a></span></div> -->
+			<!-- Button to open the modal -->
+				<button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+
+				<!-- The Modal (contains the Sign Up form) -->
+				<div id="id01" class="modal">
+				<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">times;</span>
+				<form class="modal-content" action="/action_page.php">
+					<div class="container">
+					<h1>Sign Up</h1>
+					<p>Please fill in this form to create an account.</p>
+					<hr>
+					<label for="email"><b>Email</b></label>
+					<input type="text" placeholder="Enter Email" name="email" required>
+
+					<label for="psw"><b>Password</b></label>
+					<input type="password" placeholder="Enter Password" name="psw" required>
+
+					<label for="psw-repeat"><b>Repeat Password</b></label>
+					<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+					<label>
+						<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+					</label>
+
+					<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+					<div class="clearfix">
+						<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+						<button type="submit" class="signup">Sign Up</button>
+					</div>
+					</div>
+				</form>
+				</div>
+	
+			<form action="action_page.php" method="post">
+				<div class="imgcontainer">
+				  <img src="images/log.png" alt="Avatar" class="avatar">
+				</div>
+			  
+				<div class="container">
+				  <label for="uname"><b>Username</b></label>
+				  <input type="text" placeholder="Enter Username" name="uname" required>
+			  
+				  <label for="psw"><b>Password</b></label>
+				  <input type="password" placeholder="Enter Password" name="psw" required>
+			  
+				  <button type="submit">Login</button>
+				  <label>
+					<input type="checkbox" checked="checked" name="remember"> Remember me
+				  </label>
+				</div>
+			  
+				<div class="container" style="background-color:#f1f1f1">
+				  <button type="button" class="cancelbtn">Cancel</button>
+				 
+				  <span class="psw">Forgot <a href="#">password?</a></span>
+				</div>
+			  </form>
+			
+					<div id="social" >
+						<div id="socialicon">
+							<ul id="menu">
+								<li ><a href "##"><img src="images/facebook-icon.png" ><span class="hiddenn"> Find us on Facebook</span></a></li>
+								<li ><a href "##"><img src="images/instagram-icon.png" ><span class="hiddenn"> Share on Instagram</span></a></li>
+								<li ><a href "##"><img src="images/youtube-icon.png" ><span class="hiddenn"> Watch on Youtube</span></a></li>
+								<li ><a href "##"><img src="images/twitter-icon.png" ><span class="hiddenn"> Tweet on Twitter</span></a></li>
+								
+							</ul>
+						</div><!--end of div social icon -->
+						<div id="socialposts">  
+							<p><a href="url">@Orre Poor Organization in Iowa</a> </p>
+						</div><!--end of div social Posts -->
+						
+					</div><!--end of div social -->
+
+		</section><!--end of section -->
+		<script>
+			// Get the modal
+			var modal = document.getElementById('id01');
+			
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+			  if (event.target == modal) {
+				modal.style.display = "none";
+			  }
+			}
+			</script>
+			
+       
+     
+		<footer>
+			<div id="footerNav">
+				<div id="footnav">
+					<ul>
+						<li><a href="index.html">Jobs</a></li>
+						<li><a href "# #">Community</a></li>
+						<li><a href "# #">Media</a></li>
+						<li><a href="contact.html">Contact</a></li>
+				    
+					</ul><br>
+					100 Fun Street, Des Moines,Iowa 50301<br>
+					1-800-654-3210
+				</div><!--end of foot nav div  -->
+			</div><!--end of footer nav div  -->
+			
+		</footer>
+	</div><!--end of footer container div  -->
+</body>
+</html>

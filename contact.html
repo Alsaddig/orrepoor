@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<title> responsive</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<meta charset="utf-8">
+</head>
+<body>
+    <div id="container" >
+        <header>
+            <div id="logo">
+				<div id="logo"><img src="images/logo-main1.png" alt="Amazement Park - Logo" /></div><!--end logo-->   
+			</div><!--end of logodiv  -->
+			<h1 id="orre">Orre Poor Organization in Iowa</h1>
+			
+     	</header>
+        <nav>
+            <a class="toggleMenu" href="#"><img src="amazementpark-images/menu-icon.png" />Menu</a>
+			<ul class="menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#">Services
+					</a>
+					<ul>
+						<li><a href="vlounteer.html">Vlounteers</a></li>
+						<li><a href="sports.html">Sports</a></li>
+						<li><a href="cluture.html">Cluture</a></li>
+						<li><a href="service.html">Education</a></li>
+						<li><a href="service.html">Arts</a></li>
+						<li><a href="others.html">Others</a></li>
+					</ul>
+					</li>
+					<li><a href="contact.html">contact</a></li>
+					<li><a href="member.html">Membership</a></li>
+					<li><a href="photos.html">photos</a></li>
+					<li><a href="news.html">News</a></li>
+					<li><a href="login.html">
+						<button type="submit" class="submit" id="submit" name="Submit" value="Login" action="login.php"/><span>Login </span></button>
+						</a></li>
+						<div id="donate">	
+							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+								<input type="hidden" name="cmd" value="_donations">
+								<input type="hidden" name="business" value="realsightings4@gmail.com">
+								<input type="hidden" name="lc" value="US">
+								<input type="hidden" name="item_name" value="Real Sightings Inc">
+								<input type="hidden" name="no_note" value="0">
+								<input type="hidden" name="currency_code" value="USD">
+								<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+								<input id="paypal" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+								<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+							</form>
+						</div><!--end donate-->
+				</ul>
+			</nav>
+        </nav>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+		
+		<section>
+       
+        <form id="sample" action="mailMain.php" method="POST">
+			<fieldset>
+				<legend>Contact Us</legend>
+				<p><label for="firstname">First Name:</label><input name="firstname" placeholder="First Name" type="text" /></p>
+				<p><label for="lastname">Last Name:</label><input name="lastname" placeholder="Last Name" type="text" /></p>
+				<p><label for="email">Email Address:<span class="important">*</span></label><input name="email" placeholder="namedomain.com" required type="email" /></p>
+				<p><label for="message">Message:<span class="important">*</span></label>
+				<textarea name="message" placeholder="Enter Your Message" required ></textarea></p>
+				<p><Label>Have you visited the page before?</label>
+				<input type="Radio" value"Yes" name="youvisited">Yes
+				<input type="Radio" value"No" name="youvisited" />No</p><br>
+				<p><button>Send</button><span class="important">*</span><span id="required"> Required</span></p>
+			</fieldset>			
+		</form>
+         </article><!--end of article -->
+	    <div id="social" >
+			<div id="socialicon">
+				<ul id="menu">
+					<li ><a href "##"><img src="images/facebook-icon.png" ><span class="hiddenn"> Find us on Facebook</span></a></li>
+					<li ><a href "##"><img src="images/instagram-icon.png" ><span class="hiddenn"> Share on Instagram</span></a></li>
+					<li ><a href "##"><img src="images/youtube-icon.png" ><span class="hiddenn"> Watch on Youtube</span></a></li>
+					<li ><a href "##"><img src="images/twitter-icon.png" ><span class="hiddenn"> Tweet on Twitter</span></a></li>
+					
+				</ul>
+		    </div><!--end of div social icon -->
+			<div id="socialposts">  
+				<p><a href="url">@Orre Poor Organization in Iowa</a> </p>
+			</div><!--end of div social Posts -->
+			 
+	    </div><!--end of div social -->
+
+		</section><!--end of section -->
+       
+     
+		<footer>
+			<div id="footerNav">
+				<div id="footnav">
+					<ul>
+						<li><a href="index.html">Jobs</a></li>
+						<li><a href "# #">Community</a></li>
+						<li><a href "# #">Media</a></li>
+						<li><a href="contact.html">Contact</a></li>
+				    
+					</ul><br>
+					100 Fun Street, Des Moines,Iowa 50301<br>
+					1-800-654-3210
+				</div><!--end of foot nav div  -->
+			</div><!--end of footer nav div  -->
+			
+		</footer>
+	</div><!--end of footer container div  -->
+</body>
+</html>
